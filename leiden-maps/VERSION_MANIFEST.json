@@ -1,0 +1,178 @@
+{
+  "prepared": "2026-10-30",
+  "interface_version": "Latest manual descriptor v3",
+  "maps": [
+    {
+      "platform": "Horizon Worlds",
+      "coding": "Manual",
+      "slug": "manual/horizon-worlds",
+      "source_folder": "outputs/horizon_worlds_theme_gravity_lab_v3",
+      "input_json": "discord_messages_953395097360298020_horizon_ideas-discussion_normalized.json",
+      "input_sha256": "d6319bc64123a6a9bd14162da0f2b29390a6cf7167054ed307981fabb8c95afb",
+      "interface": "latest manual descriptor v3",
+      "messages": 5000,
+      "descriptor_labels": 2735,
+      "viewer": "leiden-maps/manual/horizon-worlds/START_HERE.html",
+      "source_file_sha256": {
+        "START_HERE.html": "4a7f42474a6c1e65360b2218a4662f189996a63bbdde807c2d3a5fdad36fb9dc",
+        "FIXED_MAP.html": "07da8f7db07d30147ca0aad99d362bf7cff32c4f7823efc9841acd511a5e176d",
+        "ANIMATED_MAP.html": "b6201fe879a578d5f5f1205c8421cdf5e63041749546a99f8dc027a984a8d8d6",
+        "METHODOLOGY.html": "5f5c79f71cf1daae0dac141edb75ade82ae9e77445df00f211de1de484c9ea13",
+        "METHOD_RESULTS.html": "d00b08d7ae033b0a6dab51bde6be3bcb023c7403d06ec0e86d66fd61892c0d99"
+      }
+    },
+    {
+      "platform": "Decentraland",
+      "coding": "Manual",
+      "slug": "manual/decentraland",
+      "source_folder": "outputs/theme_gravity_lab_v3",
+      "input_json": "decentraland_temporal_thematic_analysis_coded_thread_normalized_codes_normalized.json",
+      "input_sha256": "c27f6b70fbb0aad16ed775705493df5aea019a6995e2e6d493b72b3d6149fca0",
+      "interface": "latest manual descriptor v3",
+      "messages": 5000,
+      "descriptor_labels": 4038,
+      "viewer": "leiden-maps/manual/decentraland/START_HERE.html",
+      "source_file_sha256": {
+        "START_HERE.html": "d1ad48feb25038b20a8590249c988b2612319fa076b36b4e9a7b442c3772e809",
+        "FIXED_MAP.html": "ba1052a91afe6475a3f271fee14cd4629ceab6c931682e42c4fa2aa17eb7bee1",
+        "ANIMATED_MAP.html": "d0cf4785836a3a45dc05b43cac442a8a190e16cdf24e71ac1f63a6368746d329",
+        "METHODOLOGY.html": "de5b0f0e1e475d4e283a5fd8cd6885288850c0eabed9f361316b016296462728",
+        "METHOD_RESULTS.html": "ab8c99d8230231e25ed1538e67178f7e0adf611d3be2a63cfed5fa5f5e8856d6"
+      }
+    },
+    {
+      "platform": "Horizon Worlds",
+      "coding": "Automated / LLM",
+      "slug": "automated/horizon-worlds",
+      "source_folder": "outputs/llm_descriptor_leiden_20261029/horizon-worlds",
+      "input_json": "horizon_worlds_consolidated_REVISED.json",
+      "input_sha256": "9ef9815d70da6617a021dd488190f72fd831d016a51d093d9af3be6a1c24626d",
+      "interface": "latest manual descriptor v3",
+      "messages": 5000,
+      "descriptor_labels": 485,
+      "viewer": "leiden-maps/automated/horizon-worlds/START_HERE.html",
+      "source_file_sha256": {
+        "START_HERE.html": "345f15aaa93eef342ab8941346474843696b77d76df8fce127a70af610776fef",
+        "FIXED_MAP.html": "a8f1b906734905f44f266f9fe47ca1bf9473bd73b98715b4f0ffe84f5f46fb31",
+        "ANIMATED_MAP.html": "c07c3dc16a5999fcfd63211ff323ae0cf7253335f0c3cdf63369c5f004946937",
+        "METHODOLOGY.html": "82bc4b0b7a48ea4ebded5ac266affefeb123ea9fa1c8b3f85c9697993b73efea",
+        "METHOD_RESULTS.html": "8f2ae9a452c0b31a1acb7eed2fcc4730108209d1adf2127baea717dd0528310a"
+      }
+    },
+    {
+      "platform": "Decentraland",
+      "coding": "Automated / LLM",
+      "slug": "automated/decentraland",
+      "source_folder": "outputs/llm_descriptor_leiden_20261029/decentraland",
+      "input_json": "decentraland_consolidated_REVISED.json",
+      "input_sha256": "1f360f49009be301b46f01b5f345c04249bea1b46ceb7f23a1bfe128786f9bc9",
+      "interface": "latest manual descriptor v3",
+      "messages": 5000,
+      "descriptor_labels": 4008,
+      "viewer": "leiden-maps/automated/decentraland/START_HERE.html",
+      "source_file_sha256": {
+        "START_HERE.html": "dc9893636e5a6ad8f61b7a8e430ed91e2ddf59c86e8cdbf3b144d69ac18e9cf1",
+        "FIXED_MAP.html": "fe2eb32e80c8423268f9b9f589ad378e67ff7cad60a1f167e7db237dc3839ffd",
+        "ANIMATED_MAP.html": "fde6cf0bafafb926b99fc2b21380a4087aab43d63c40703f1686ddbfed666142",
+        "METHODOLOGY.html": "015aca28c1bea23884bb294b7763ab337846cb39a75c5714e8a5a59f4ce6b2f1",
+        "METHOD_RESULTS.html": "3c6fcde0d9c730ecc36e1805d21ca655106ad0ce932050f2b1fb51d0b6386fe6"
+      }
+    }
+  ],
+  "checks": [
+    "all four current input JSON hashes match their saved analyses",
+    "all twelve fixed/animated/comparison pages embed the saved analysis",
+    "all twenty copied pages exactly match current local originals",
+    "local navigation targets exist"
+  ],
+  "files": {
+    "leiden-maps/automated/decentraland/ANIMATED_MAP.html": {
+      "bytes": 2911005,
+      "sha256": "fde6cf0bafafb926b99fc2b21380a4087aab43d63c40703f1686ddbfed666142"
+    },
+    "leiden-maps/automated/decentraland/FIXED_MAP.html": {
+      "bytes": 2911002,
+      "sha256": "fe2eb32e80c8423268f9b9f589ad378e67ff7cad60a1f167e7db237dc3839ffd"
+    },
+    "leiden-maps/automated/decentraland/METHOD_RESULTS.html": {
+      "bytes": 6004,
+      "sha256": "3c6fcde0d9c730ecc36e1805d21ca655106ad0ce932050f2b1fb51d0b6386fe6"
+    },
+    "leiden-maps/automated/decentraland/METHODOLOGY.html": {
+      "bytes": 8648,
+      "sha256": "015aca28c1bea23884bb294b7763ab337846cb39a75c5714e8a5a59f4ce6b2f1"
+    },
+    "leiden-maps/automated/decentraland/START_HERE.html": {
+      "bytes": 2910979,
+      "sha256": "dc9893636e5a6ad8f61b7a8e430ed91e2ddf59c86e8cdbf3b144d69ac18e9cf1"
+    },
+    "leiden-maps/automated/horizon-worlds/ANIMATED_MAP.html": {
+      "bytes": 2310274,
+      "sha256": "c07c3dc16a5999fcfd63211ff323ae0cf7253335f0c3cdf63369c5f004946937"
+    },
+    "leiden-maps/automated/horizon-worlds/FIXED_MAP.html": {
+      "bytes": 2310271,
+      "sha256": "a8f1b906734905f44f266f9fe47ca1bf9473bd73b98715b4f0ffe84f5f46fb31"
+    },
+    "leiden-maps/automated/horizon-worlds/METHOD_RESULTS.html": {
+      "bytes": 4872,
+      "sha256": "8f2ae9a452c0b31a1acb7eed2fcc4730108209d1adf2127baea717dd0528310a"
+    },
+    "leiden-maps/automated/horizon-worlds/METHODOLOGY.html": {
+      "bytes": 8715,
+      "sha256": "82bc4b0b7a48ea4ebded5ac266affefeb123ea9fa1c8b3f85c9697993b73efea"
+    },
+    "leiden-maps/automated/horizon-worlds/START_HERE.html": {
+      "bytes": 2310248,
+      "sha256": "345f15aaa93eef342ab8941346474843696b77d76df8fce127a70af610776fef"
+    },
+    "leiden-maps/index.html": {
+      "bytes": 3716,
+      "sha256": "6c0704b790658e8d4a4abe6b57cb68bc0f95a10623ee14378dd229d0f7c776ed"
+    },
+    "leiden-maps/manual/decentraland/ANIMATED_MAP.html": {
+      "bytes": 4435735,
+      "sha256": "d0cf4785836a3a45dc05b43cac442a8a190e16cdf24e71ac1f63a6368746d329"
+    },
+    "leiden-maps/manual/decentraland/FIXED_MAP.html": {
+      "bytes": 4435732,
+      "sha256": "ba1052a91afe6475a3f271fee14cd4629ceab6c931682e42c4fa2aa17eb7bee1"
+    },
+    "leiden-maps/manual/decentraland/METHOD_RESULTS.html": {
+      "bytes": 6417,
+      "sha256": "ab8c99d8230231e25ed1538e67178f7e0adf611d3be2a63cfed5fa5f5e8856d6"
+    },
+    "leiden-maps/manual/decentraland/METHODOLOGY.html": {
+      "bytes": 25745,
+      "sha256": "de5b0f0e1e475d4e283a5fd8cd6885288850c0eabed9f361316b016296462728"
+    },
+    "leiden-maps/manual/decentraland/START_HERE.html": {
+      "bytes": 4435709,
+      "sha256": "d1ad48feb25038b20a8590249c988b2612319fa076b36b4e9a7b442c3772e809"
+    },
+    "leiden-maps/manual/horizon-worlds/ANIMATED_MAP.html": {
+      "bytes": 4165063,
+      "sha256": "b6201fe879a578d5f5f1205c8421cdf5e63041749546a99f8dc027a984a8d8d6"
+    },
+    "leiden-maps/manual/horizon-worlds/FIXED_MAP.html": {
+      "bytes": 4165060,
+      "sha256": "07da8f7db07d30147ca0aad99d362bf7cff32c4f7823efc9841acd511a5e176d"
+    },
+    "leiden-maps/manual/horizon-worlds/METHOD_RESULTS.html": {
+      "bytes": 9514,
+      "sha256": "d00b08d7ae033b0a6dab51bde6be3bcb023c7403d06ec0e86d66fd61892c0d99"
+    },
+    "leiden-maps/manual/horizon-worlds/METHODOLOGY.html": {
+      "bytes": 20337,
+      "sha256": "5f5c79f71cf1daae0dac141edb75ade82ae9e77445df00f211de1de484c9ea13"
+    },
+    "leiden-maps/manual/horizon-worlds/START_HERE.html": {
+      "bytes": 4165037,
+      "sha256": "4a7f42474a6c1e65360b2218a4662f189996a63bbdde807c2d3a5fdad36fb9dc"
+    },
+    "leiden-maps/README.md": {
+      "bytes": 870,
+      "sha256": "b4cb553245a6b5e83105a3c86fa8efd03655006c878ac2ea569f580e1659e93d"
+    }
+  }
+}
