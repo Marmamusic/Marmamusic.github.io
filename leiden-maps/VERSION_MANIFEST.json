@@ -1,6 +1,6 @@
 {
   "prepared": "2026-10-30",
-  "interface_version": "Latest manual descriptor v3",
+  "interface_version": "Descriptor v3; manual tension v1",
   "maps": [
     {
       "platform": "Horizon Worlds",
@@ -77,13 +77,60 @@
         "METHODOLOGY.html": "015aca28c1bea23884bb294b7763ab337846cb39a75c5714e8a5a59f4ce6b2f1",
         "METHOD_RESULTS.html": "3c6fcde0d9c730ecc36e1805d21ca655106ad0ce932050f2b1fb51d0b6386fe6"
       }
+    },
+    {
+      "platform": "Horizon Worlds",
+      "coding": "Manual",
+      "slug": "tensions/manual/horizon-worlds",
+      "source_folder": "outputs/tension_gravity_lab_v1/horizon-worlds",
+      "input_json": "discord_messages_953395097360298020_horizon_ideas-discussion_normalized.json",
+      "input_sha256": "d6319bc64123a6a9bd14162da0f2b29390a6cf7167054ed307981fabb8c95afb",
+      "interface": "Latest manual tension interface v1",
+      "version": "1",
+      "network_field": "tension_content",
+      "messages": 5000,
+      "tension_labels": 377,
+      "context_descriptor_labels": 46,
+      "viewer": "leiden-maps/tensions/manual/horizon-worlds/START_HERE.html",
+      "source_file_sha256": {
+        "START_HERE.html": "b2876e5bfda266e8988f29b3a8f016058c249840c099a19ebc1011fe4dd20c46",
+        "FIXED_MAP.html": "345185a17612f40e31538af268909a0c480fd716ae5a813e209fba14c49e81bb",
+        "ANIMATED_MAP.html": "38ba40c8b8d94777de1904cee23139f06bd0108de8de0ea8c292240965683bb0",
+        "METHODOLOGY.html": "6aadad04747c7ea369dcb605e792209a5d26e6b20cd77ad44d8160c85480671e",
+        "METHOD_RESULTS.html": "c1bb517abaf078883375582fda793e01f1e4c732c2e48ff440e3c3fed5288f04",
+        "tension_prevalence.csv": "c321102ddc41a84f407420ba2dbfd4ca12504a41f6f215c779f8fa929f5f414a"
+      }
+    },
+    {
+      "platform": "Decentraland",
+      "coding": "Manual",
+      "slug": "tensions/manual/decentraland",
+      "source_folder": "outputs/tension_gravity_lab_v1/decentraland",
+      "input_json": "decentraland_temporal_thematic_analysis_coded_thread_normalized_codes_normalized.json",
+      "input_sha256": "c27f6b70fbb0aad16ed775705493df5aea019a6995e2e6d493b72b3d6149fca0",
+      "interface": "Latest manual tension interface v1",
+      "version": "1",
+      "network_field": "tension_content",
+      "messages": 5000,
+      "tension_labels": 101,
+      "context_descriptor_labels": 117,
+      "viewer": "leiden-maps/tensions/manual/decentraland/START_HERE.html",
+      "source_file_sha256": {
+        "START_HERE.html": "472747e5728f8bbbcc34ff2de3fe6b8d5eb82e0c05f043e4b6aac3cdb5fb3951",
+        "FIXED_MAP.html": "8df9b507a81a91fac042d354f508f2ea4b7d161aa313d4b6459bf471db9adcd9",
+        "ANIMATED_MAP.html": "8adf4e7e40cd4e045d86c389a972cf3427c44365d887328715864b08960a7d44",
+        "METHODOLOGY.html": "310e6c8427b0d2532072db6fbdee627d205884b2aabd8a2556a8638a32f44c4c",
+        "METHOD_RESULTS.html": "f2d72fb0275c5097fdca074aaf3de5a62f427c806dc4e6ed787694659cd37c7b",
+        "tension_prevalence.csv": "e32c324e21c24ac8b191342b0005d3eba57b58a207daf151c0d9b9281fd76b82"
+      }
     }
   ],
   "checks": [
-    "all four current input JSON hashes match their saved analyses",
-    "all twelve fixed/animated/comparison pages embed the saved analysis",
-    "all twenty copied pages exactly match current local originals",
-    "local navigation targets exist"
+    "All six input JSON hashes match their saved analyses",
+    "All six viewer sets preserve the latest respective interface and saved data",
+    "All copied HTML pages match their current local originals",
+    "Six ENW records have distinct matching viewer URLs and correct versions",
+    "Local navigation targets exist"
   ],
   "files": {
     "leiden-maps/automated/decentraland/ANIMATED_MAP.html": {
@@ -126,9 +173,21 @@
       "bytes": 2310248,
       "sha256": "345f15aaa93eef342ab8941346474843696b77d76df8fce127a70af610776fef"
     },
+    "leiden-maps/citations/Four_Leiden_maps_APA7.enw": {
+      "bytes": 3216,
+      "sha256": "5188fc8a64c1382c0b38804ffa246a20d6244c136282649a8f0745ff50ab6dd2"
+    },
+    "leiden-maps/citations/README.md": {
+      "bytes": 1025,
+      "sha256": "8c62b825cf22df9a730da6a92b98cee787f8f13f786d88126171d362de965a56"
+    },
+    "leiden-maps/citations/Six_Leiden_maps_APA7.enw": {
+      "bytes": 4701,
+      "sha256": "dd70ebd10790defa63f1f3d340e9383250bc5f2cf0eb4e7f9ab29279e8d92a3c"
+    },
     "leiden-maps/index.html": {
-      "bytes": 3716,
-      "sha256": "6c0704b790658e8d4a4abe6b57cb68bc0f95a10623ee14378dd229d0f7c776ed"
+      "bytes": 5146,
+      "sha256": "13f21de192b0caa9298c33480823a5bf424b757b2bcd5eceb02f77dd95becf12"
     },
     "leiden-maps/manual/decentraland/ANIMATED_MAP.html": {
       "bytes": 4435735,
@@ -171,8 +230,57 @@
       "sha256": "4a7f42474a6c1e65360b2218a4662f189996a63bbdde807c2d3a5fdad36fb9dc"
     },
     "leiden-maps/README.md": {
-      "bytes": 870,
-      "sha256": "b4cb553245a6b5e83105a3c86fa8efd03655006c878ac2ea569f580e1659e93d"
+      "bytes": 1087,
+      "sha256": "857425dbd6441f5156fd983218a37086aee9ba264a5c455298019715abc25c07"
+    },
+    "leiden-maps/tensions/manual/decentraland/ANIMATED_MAP.html": {
+      "bytes": 2531721,
+      "sha256": "8adf4e7e40cd4e045d86c389a972cf3427c44365d887328715864b08960a7d44"
+    },
+    "leiden-maps/tensions/manual/decentraland/FIXED_MAP.html": {
+      "bytes": 2531718,
+      "sha256": "8df9b507a81a91fac042d354f508f2ea4b7d161aa313d4b6459bf471db9adcd9"
+    },
+    "leiden-maps/tensions/manual/decentraland/METHOD_RESULTS.html": {
+      "bytes": 7820,
+      "sha256": "f2d72fb0275c5097fdca074aaf3de5a62f427c806dc4e6ed787694659cd37c7b"
+    },
+    "leiden-maps/tensions/manual/decentraland/METHODOLOGY.html": {
+      "bytes": 21670,
+      "sha256": "310e6c8427b0d2532072db6fbdee627d205884b2aabd8a2556a8638a32f44c4c"
+    },
+    "leiden-maps/tensions/manual/decentraland/START_HERE.html": {
+      "bytes": 2531695,
+      "sha256": "472747e5728f8bbbcc34ff2de3fe6b8d5eb82e0c05f043e4b6aac3cdb5fb3951"
+    },
+    "leiden-maps/tensions/manual/decentraland/tension_prevalence.csv": {
+      "bytes": 5435,
+      "sha256": "e32c324e21c24ac8b191342b0005d3eba57b58a207daf151c0d9b9281fd76b82"
+    },
+    "leiden-maps/tensions/manual/horizon-worlds/ANIMATED_MAP.html": {
+      "bytes": 2531612,
+      "sha256": "38ba40c8b8d94777de1904cee23139f06bd0108de8de0ea8c292240965683bb0"
+    },
+    "leiden-maps/tensions/manual/horizon-worlds/FIXED_MAP.html": {
+      "bytes": 2531609,
+      "sha256": "345185a17612f40e31538af268909a0c480fd716ae5a813e209fba14c49e81bb"
+    },
+    "leiden-maps/tensions/manual/horizon-worlds/METHOD_RESULTS.html": {
+      "bytes": 8525,
+      "sha256": "c1bb517abaf078883375582fda793e01f1e4c732c2e48ff440e3c3fed5288f04"
+    },
+    "leiden-maps/tensions/manual/horizon-worlds/METHODOLOGY.html": {
+      "bytes": 21670,
+      "sha256": "6aadad04747c7ea369dcb605e792209a5d26e6b20cd77ad44d8160c85480671e"
+    },
+    "leiden-maps/tensions/manual/horizon-worlds/START_HERE.html": {
+      "bytes": 2531586,
+      "sha256": "b2876e5bfda266e8988f29b3a8f016058c249840c099a19ebc1011fe4dd20c46"
+    },
+    "leiden-maps/tensions/manual/horizon-worlds/tension_prevalence.csv": {
+      "bytes": 20118,
+      "sha256": "c321102ddc41a84f407420ba2dbfd4ca12504a41f6f215c779f8fa929f5f414a"
     }
-  }
+  },
+  "updated": "2026-10-30"
 }

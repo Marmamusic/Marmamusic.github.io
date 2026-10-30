@@ -1,0 +1,65 @@
+%0 Computer Program
+%A Schmalzried, Martin
+%D 2026
+%T Decentraland descriptor communities and conversation profiles: Automated LLM coding
+%7 3
+%9 Computer software
+%I GitHub Pages
+%U https://marmamusic.github.io/leiden-maps/automated/decentraland/START_HERE.html
+%F Schmalzried2026DecentralandAutomated
+%Z Interactive descriptor network map, including fixed Leiden communities, animated association build and conversation profiles. Published online 30 October 2026. Version 3 identifies the descriptor viewer interface. Uses the revised consolidated LLM-coded JSON. Publication snapshot: https://github.com/Marmamusic/Marmamusic.github.io/commit/a8fee8fe5e2d18c9e4e9ef53bfe6defed7995613. Author name taken from the creator metadata of the thesis document; map authorship attributed to the researcher.
+
+%0 Computer Program
+%A Schmalzried, Martin
+%D 2026
+%T Decentraland descriptor communities and conversation profiles: Manual coding
+%7 3
+%9 Computer software
+%I GitHub Pages
+%U https://marmamusic.github.io/leiden-maps/manual/decentraland/START_HERE.html
+%F Schmalzried2026DecentralandManual
+%Z Interactive descriptor network map, including fixed Leiden communities, animated association build and conversation profiles. Published online 30 October 2026. Version 3 identifies the descriptor viewer interface. Uses normalized manually coded JSON. Publication snapshot: https://github.com/Marmamusic/Marmamusic.github.io/commit/a8fee8fe5e2d18c9e4e9ef53bfe6defed7995613. Author name taken from the creator metadata of the thesis document; map authorship attributed to the researcher.
+
+%0 Computer Program
+%A Schmalzried, Martin
+%D 2026
+%T Decentraland tension communities and conversation profiles: Manual coding
+%7 1
+%9 Computer software
+%I GitHub Pages
+%U https://marmamusic.github.io/leiden-maps/tensions/manual/decentraland/START_HERE.html
+%F Schmalzried2026DecentralandManualTensions
+%Z Interactive manual tension network, including fixed Leiden communities, animated association build, contextual descriptors and conversation profiles. Source field: tension_content. Latest tension viewer Version 1; published online 30 October 2026. Source viewer SHA-256: 472747e5728f8bbbcc34ff2de3fe6b8d5eb82e0c05f043e4b6aac3cdb5fb3951. Author attribution follows the thesis researcher and existing descriptor citations.
+
+%0 Computer Program
+%A Schmalzried, Martin
+%D 2026
+%T Horizon Worlds descriptor communities and conversation profiles: Automated LLM coding
+%7 3
+%9 Computer software
+%I GitHub Pages
+%U https://marmamusic.github.io/leiden-maps/automated/horizon-worlds/START_HERE.html
+%F Schmalzried2026HorizonWorldsAutomated
+%Z Interactive descriptor network map, including fixed Leiden communities, animated association build and conversation profiles. Published online 30 October 2026. Version 3 identifies the descriptor viewer interface. Uses the revised consolidated LLM-coded JSON. Publication snapshot: https://github.com/Marmamusic/Marmamusic.github.io/commit/a8fee8fe5e2d18c9e4e9ef53bfe6defed7995613. Author name taken from the creator metadata of the thesis document; map authorship attributed to the researcher.
+
+%0 Computer Program
+%A Schmalzried, Martin
+%D 2026
+%T Horizon Worlds descriptor communities and conversation profiles: Manual coding
+%7 3
+%9 Computer software
+%I GitHub Pages
+%U https://marmamusic.github.io/leiden-maps/manual/horizon-worlds/START_HERE.html
+%F Schmalzried2026HorizonWorldsManual
+%Z Interactive descriptor network map, including fixed Leiden communities, animated association build and conversation profiles. Published online 30 October 2026. Version 3 identifies the descriptor viewer interface. Uses normalized manually coded JSON. Publication snapshot: https://github.com/Marmamusic/Marmamusic.github.io/commit/a8fee8fe5e2d18c9e4e9ef53bfe6defed7995613. Author name taken from the creator metadata of the thesis document; map authorship attributed to the researcher.
+
+%0 Computer Program
+%A Schmalzried, Martin
+%D 2026
+%T Horizon Worlds tension communities and conversation profiles: Manual coding
+%7 1
+%9 Computer software
+%I GitHub Pages
+%U https://marmamusic.github.io/leiden-maps/tensions/manual/horizon-worlds/START_HERE.html
+%F Schmalzried2026HorizonWorldsManualTensions
+%Z Interactive manual tension network, including fixed Leiden communities, animated association build, contextual descriptors and conversation profiles. Source field: tension_content. Latest tension viewer Version 1; published online 30 October 2026. Source viewer SHA-256: b2876e5bfda266e8988f29b3a8f016058c249840c099a19ebc1011fe4dd20c46. Author attribution follows the thesis researcher and existing descriptor citations.

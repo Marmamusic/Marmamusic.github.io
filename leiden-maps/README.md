@@ -1,12 +1,14 @@
-# Descriptor Leiden maps
+# Leiden maps: descriptors and manual tensions
 
-Latest manual descriptor v3 interfaces, published 30 October 2026. Automated maps use the revised LLM-coded JSON files.
+Updated 30 October 2026. Four descriptor viewers use the latest v3 descriptor interface. Two manual tension viewers use the latest v1 tension interface and the tension_content field.
 
-- [Horizon Worlds — Manual](manual/horizon-worlds/START_HERE.html)
-- [Decentraland — Manual](manual/decentraland/START_HERE.html)
-- [Horizon Worlds — Automated / LLM](automated/horizon-worlds/START_HERE.html)
-- [Decentraland — Automated / LLM](automated/decentraland/START_HERE.html)
+- [Horizon Worlds - Manual - descriptors](manual/horizon-worlds/START_HERE.html)
+- [Decentraland - Manual - descriptors](manual/decentraland/START_HERE.html)
+- [Horizon Worlds - Automated / LLM - descriptors](automated/horizon-worlds/START_HERE.html)
+- [Decentraland - Automated / LLM - descriptors](automated/decentraland/START_HERE.html)
+- [Horizon Worlds - Manual - tensions](tensions/manual/horizon-worlds/START_HERE.html)
+- [Decentraland - Manual - tensions](tensions/manual/decentraland/START_HERE.html)
 
-Each viewer preserves the exact source HTML, including fixed and animated maps, profiles, support controls, PNG exports and complete embedded analysis. Supporting methodology and result pages are included. The upload contains generated map pages rather than the original coding workbooks or unrelated thesis files.
+[EndNote citations for all six maps](citations/Six_Leiden_maps_APA7.enw). The original four-record ENW remains in citations/.
 
-The source JSON hashes, latest-interface check and file hashes are recorded in VERSION_MANIFEST.json.
+Each viewer preserves the exact current source HTML and embedded analysis. Supporting methodology and result pages are included. Source hashes and interface checks are recorded in VERSION_MANIFEST.json.
